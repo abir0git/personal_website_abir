@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/personal_website_abir/static/js/main.9b602524.js",
+    "main.css": "/personal_website_abir/static/css/main.f5ce3480.css",
+    "main.js": "/personal_website_abir/static/js/main.82f45920.js",
+    "static/media/a.jpg": "/personal_website_abir/static/media/a.be66344cc8b3cfa380af.jpg",
     "index.html": "/personal_website_abir/index.html",
-    "main.9b602524.js.map": "/personal_website_abir/static/js/main.9b602524.js.map"
+    "main.f5ce3480.css.map": "/personal_website_abir/static/css/main.f5ce3480.css.map",
+    "main.82f45920.js.map": "/personal_website_abir/static/js/main.82f45920.js.map"
   },
   "entrypoints": [
-    "static/js/main.9b602524.js"
+    "static/css/main.f5ce3480.css",
+    "static/js/main.82f45920.js"
   ]
 }
