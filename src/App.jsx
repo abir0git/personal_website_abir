@@ -1,7 +1,11 @@
-function App() {
+import React from "react";
+import Home from "./components/Home";
+
+const App = () =>
+{
   return (
-    <div className="App">
-      	Hello world! I am Abir Roy
+    <div>
+      	<Home/>
     </div>
   );
 }
