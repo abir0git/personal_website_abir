@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/personal_website_abir/static/css/main.413ca363.css",
-    "main.js": "/personal_website_abir/static/js/main.f0ef9338.js",
+    "main.css": "/personal_website_abir/static/css/main.f05d5947.css",
+    "main.js": "/personal_website_abir/static/js/main.d45fa047.js",
     "static/media/a.jpg": "/personal_website_abir/static/media/a.be66344cc8b3cfa380af.jpg",
     "index.html": "/personal_website_abir/index.html",
-    "main.413ca363.css.map": "/personal_website_abir/static/css/main.413ca363.css.map",
-    "main.f0ef9338.js.map": "/personal_website_abir/static/js/main.f0ef9338.js.map"
+    "main.f05d5947.css.map": "/personal_website_abir/static/css/main.f05d5947.css.map",
+    "main.d45fa047.js.map": "/personal_website_abir/static/js/main.d45fa047.js.map"
   },
   "entrypoints": [
-    "static/css/main.413ca363.css",
-    "static/js/main.f0ef9338.js"
+    "static/css/main.f05d5947.css",
+    "static/js/main.d45fa047.js"
   ]
 }
