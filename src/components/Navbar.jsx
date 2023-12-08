@@ -9,7 +9,7 @@ const Navbar = () =>
 
     function DD_activate()
     {
-        console.log("Bui");
+        // console.log("Bui");
         if(!DD)
         {
             setDD(true);
@@ -39,10 +39,10 @@ const Navbar = () =>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto align-items-center">
                             <li className="nav-item">
-                                <a className="nav-link" href="#home">Home</a>
+                                <a className="nav-link" href="/personal_website_abir">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#about">About</a>
+                                <a className="nav-link" href="/personal_website_abir/about">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#service">Service</a>
