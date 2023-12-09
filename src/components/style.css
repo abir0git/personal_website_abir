@@ -11523,8 +11523,8 @@ pre {
 .header .container .img-holder img {
   width: 100%;
   max-width: 620px;
-  -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
-          filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
+  /* -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
+          filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4)); */
   margin-left: auto;
   margin-right: -2rem;
 }
@@ -11755,9 +11755,9 @@ margin-top: 12px;
 .home-name {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
+  white-space: pre-wrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .1em; /* Adjust as needed */
+  letter-spacing: .05em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;

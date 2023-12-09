@@ -1,4 +1,5 @@
 import resume from "../pdfs/ABIR_ROY_RESUME.pdf"
+import logo from "../imgs/a.jpg"
 
 function Home_body()
 {
@@ -12,7 +13,8 @@ function Home_body()
             <div className="container">
                 <div className="infos">
                     <h6 className="subtitle">Hello, I am</h6>
-                    <h6 className="title home-name">ABIR ROY</h6>
+                    <h6 className="title home-name">ABIR</h6>
+                    <h6 className="title home-name">ROY</h6>
                     <p></p>
 
                     <div className="buttons pt-3">
@@ -28,7 +30,7 @@ function Home_body()
                     </div>
                 </div>              
                 {/* <div className="img-holder">
-                    <img src="assets/imgs/man.svg" alt="">
+                    <img src={logo} alt=""></img>
                 </div>       */}
             </div>  
 
