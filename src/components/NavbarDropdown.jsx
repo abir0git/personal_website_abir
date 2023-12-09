@@ -1,9 +1,11 @@
+import {BrowserRouter, Routes, Route, Link, useNavigate, HashRouter } from "react-router-dom";
+
 const NavbarDropdown = () =>
 {
     return(
         <div className="dropdown-content">
-            <a className="nav-link" href="/personal_website_abir">Home</a>
-            <a className="nav-link" href="/personal_website_abir/about">About</a>
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/about">About</Link>
             <a className="nav-link" href="#service">Service</a>
             <a className="nav-link" href="#portfolio">Portfolio</a>
             <a className="nav-link" href="#blog">Blog</a>

@@ -10994,7 +10994,7 @@ h1, h2, h3, h4, h5, h6 {
 .subtitle {
   font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
   opacity: 1;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 @media (min-width: 992px) {
@@ -11353,8 +11353,8 @@ pre {
 
 .navbar .navbar-brand img {
   width: 75px;
-  -webkit-filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
-          filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
+  /* -webkit-filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9)); */
+          /* filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9)); */
 }
 
 .navbar .navbar-nav {
@@ -11713,14 +11713,19 @@ background: #3B5998;
 color: white;
 }
 
-.fa-youtube {
-background: #bb0000;
-color: white;
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
 
+
 .fa-instagram {
-background: orangered;
-color: white;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
 }
 
 .fa-linkedin {
@@ -11733,4 +11738,39 @@ color: white;
 
 .about{
 margin-top: 12px;
+}
+
+/* 4 */
+/* Name Animation */
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 38rem;
+  }
+}
+
+.home-name {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
 }

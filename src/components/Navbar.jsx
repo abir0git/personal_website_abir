@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route, Link, useNavigate, HashRouter } from "react-router-dom";
 import { useState } from "react";
 import "./style.css"
-import logo from "../imgs/a.jpg"
+import logo from "../imgs/logo.png"
 import NavbarDropdown from "./NavbarDropdown";
 
 const Navbar = () => 

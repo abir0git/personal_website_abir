@@ -1,23 +1,30 @@
+import resume from "../pdfs/ABIR_ROY_RESUME.pdf"
+
 function Home_body()
 {
+    function hireMe()
+    {
+        alert("Not Avaliable !");
+    }
+
     return (
         <div className="header" id="home">
             <div className="container">
                 <div className="infos">
-                    <h6 className="subtitle">Hello,I an</h6>
-                    <h6 className="title">ABIR ROY</h6>
+                    <h6 className="subtitle">Hello, I am</h6>
+                    <h6 className="title home-name">ABIR ROY</h6>
                     <p></p>
 
                     <div className="buttons pt-3">
-                        <button className="btn btn-primary rounded">HIRE ME</button>
-                        <button className="btn btn-dark rounded">DOWNLOAD CV</button>
+                        <button className="btn btn-primary rounded" onClick={hireMe}>HIRE ME</button>
+                        <a className="btn btn-dark rounded" href={resume} target = "_blank">DOWNLOAD CV</a>
                     </div>      
 
                     <div className="socials mt-4">
-                        <a href="#" className="fa fa-facebook"></a>
-                        <a href="#" className="fa fa-instagram"></a>
-                        <a href="#" className="fa fa-youtube"></a>
-                        <a href="#" className="fa fa-linkedin"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100073420211044" target="_blank" className="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/a_for_aabir/" target="_blank" className="fa fa-instagram"></a>
+                        <a href="https://twitter.com/a_for_aabir" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://linkedin.com/in/abir-roy-335bb6246" target="_blank" className="fa fa-linkedin"></a>
                     </div>
                 </div>              
                 {/* <div className="img-holder">
