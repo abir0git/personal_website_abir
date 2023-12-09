@@ -11024,7 +11024,7 @@
     height: 40px;
     border-radius: 50%;
     border: 2px solid #ff7a57;
-    /* color: #ff7a57; */
+    color: #ff7a57;
     text-align: center;
     line-height: 40px;
     -webkit-transition: all 0.3s;
@@ -11033,9 +11033,8 @@
   }
   
   .socials .social-item:hover {
-    /* background: #ff7a57; */
-    /* color: #fff; */
-    color: #000;
+    background: #ff7a57;
+    color: #fff;
   }
   
   .btn {
@@ -11362,7 +11361,7 @@
   }
   
   .navbar .navbar-nav .nav-link {
-    font-size: 19px;
+    font-size: 13px;
     font-weight: bold;
     margin: 0 10px;
     -webkit-transition: all 0.3s;
@@ -11713,24 +11712,17 @@
   color: white;
 }
 
-.fa-youtube {
-  background: #bb0000;
+.fa-twitter {
+  background: #55ACEE;
   color: white;
 }
 
-.fa-instagram {
-  background: orangered;
+.fa-google {
+  background: #dd4b39;
   color: white;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-
-/* 3 */
-/* About */
-
-.about{
-  margin-top: 12px;
 }
