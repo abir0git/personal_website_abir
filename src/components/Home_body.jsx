@@ -4,7 +4,7 @@ function Home_body()
         <div className="header" id="home">
             <div className="container">
                 <div className="infos">
-                    <h6 className="subtitle">Hello,I am an</h6>
+                    <h6 className="subtitle">Hello,I an</h6>
                     <h6 className="title">ABIR ROY</h6>
                     <p></p>
 

@@ -7,7 +7,7 @@ const App = () =>
 {
   return (
     <div className="app">
-	<BrowserRouter basename="/personal_website_abir">
+	{/* <BrowserRouter basename="/personal_website_abir"> */}
 	{/* <HashRouter> */}
     <Routes>
 		<Route className="home"
@@ -20,7 +20,7 @@ const App = () =>
 		/>
     </Routes>
 	{/* </HashRouter> */}
-	</BrowserRouter>
+	{/* </BrowserRouter> */}
     </div>
   );
 }
