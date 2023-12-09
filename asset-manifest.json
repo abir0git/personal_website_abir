@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal_website_abir/static/css/main.0307f926.css",
-    "main.js": "/personal_website_abir/static/js/main.ab2b2c55.js",
+    "main.css": "/personal_website_abir/static/css/main.52ce3039.css",
+    "main.js": "/personal_website_abir/static/js/main.926610eb.js",
     "static/media/ABIR_ROY_RESUME.pdf": "/personal_website_abir/static/media/ABIR_ROY_RESUME.5d923642f93f99ad6e5d.pdf",
     "static/media/logo.png": "/personal_website_abir/static/media/logo.5660cf761388f39592f3.png",
-    "static/media/a.jpg": "/personal_website_abir/static/media/a.be66344cc8b3cfa380af.jpg",
+    "static/media/a.jpg": "/personal_website_abir/static/media/a.6577e1f7af04cf698552.jpg",
     "index.html": "/personal_website_abir/index.html",
-    "main.0307f926.css.map": "/personal_website_abir/static/css/main.0307f926.css.map",
-    "main.ab2b2c55.js.map": "/personal_website_abir/static/js/main.ab2b2c55.js.map"
+    "main.52ce3039.css.map": "/personal_website_abir/static/css/main.52ce3039.css.map",
+    "main.926610eb.js.map": "/personal_website_abir/static/js/main.926610eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0307f926.css",
-    "static/js/main.ab2b2c55.js"
+    "static/css/main.52ce3039.css",
+    "static/js/main.926610eb.js"
   ]
 }
