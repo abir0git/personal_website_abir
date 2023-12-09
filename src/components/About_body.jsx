@@ -13,7 +13,7 @@ function About_body()
                         <h6 class="title">Abir Roy</h6>
                         <p class="subtitle">Software Developer</p>
                         <p class="subtitle">Data Analyst</p>
-                        <p className="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>                  
+                        <p className="about">Bui Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>                  
                     </div>
                 </div>
             </div>
