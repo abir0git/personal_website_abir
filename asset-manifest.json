@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/personal_website_abir/static/css/main.52ce3039.css",
-    "main.js": "/personal_website_abir/static/js/main.926610eb.js",
+    "main.css": "/personal_website_abir/static/css/main.d2e47d4d.css",
+    "main.js": "/personal_website_abir/static/js/main.2696825f.js",
+    "static/media/bas.png": "/personal_website_abir/static/media/bas.fc89b5e898ea209f915a.png",
     "static/media/ABIR_ROY_RESUME.pdf": "/personal_website_abir/static/media/ABIR_ROY_RESUME.5d923642f93f99ad6e5d.pdf",
     "static/media/logo.png": "/personal_website_abir/static/media/logo.5660cf761388f39592f3.png",
-    "static/media/a.jpg": "/personal_website_abir/static/media/a.6577e1f7af04cf698552.jpg",
+    "static/media/ABIR.jpg": "/personal_website_abir/static/media/ABIR.77c98ac9bba80a65de95.jpg",
+    "static/media/ferDL.jpg": "/personal_website_abir/static/media/ferDL.fedf39949a91182307aa.jpg",
+    "static/media/stapp.png": "/personal_website_abir/static/media/stapp.b412050c77bf33656980.png",
+    "static/media/ImgHolder.png": "/personal_website_abir/static/media/ImgHolder.411d39aee3dd1b9f88a1.png",
     "index.html": "/personal_website_abir/index.html",
-    "main.52ce3039.css.map": "/personal_website_abir/static/css/main.52ce3039.css.map",
-    "main.926610eb.js.map": "/personal_website_abir/static/js/main.926610eb.js.map"
+    "main.d2e47d4d.css.map": "/personal_website_abir/static/css/main.d2e47d4d.css.map",
+    "main.2696825f.js.map": "/personal_website_abir/static/js/main.2696825f.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ce3039.css",
-    "static/js/main.926610eb.js"
+    "static/css/main.d2e47d4d.css",
+    "static/js/main.2696825f.js"
   ]
 }
