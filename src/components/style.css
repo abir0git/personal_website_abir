@@ -8975,7 +8975,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .ml-5,
@@ -10999,7 +10999,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   .subtitle {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -11325,7 +11325,7 @@ pre {
     border-right: 0;
   }
   .contact .contact-infos {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -11522,7 +11522,7 @@ pre {
 
 .header .container .img-holder img {
   width: 100%;
-  max-width: 620px;
+  max-width: 710px;
   /* -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
           filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4)); */
   margin-left: auto;
@@ -11759,7 +11759,7 @@ margin-top: 12px;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(40, end),
+    typing 3.5s steps(500, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -11773,4 +11773,20 @@ margin-top: 12px;
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: gray; }
+}
+
+/* 5 */
+/* Contact Icons */
+
+.contact-location{
+  font-size:48px;
+  color: red;
+}
+
+.pro-link {
+  font-size: 20px;
+  text-align: center;
+  /* margin: -2px -2px -2px -4px; */
+  margin-left: -5px;
+  margin-top: 1px;
 }

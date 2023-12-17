@@ -5,7 +5,7 @@ const Home = () =>
 {
     return(
         <div data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-            <Navbar></Navbar>
+            <Navbar active="nav-about"></Navbar>
             <About_body></About_body>
         </div>
     )

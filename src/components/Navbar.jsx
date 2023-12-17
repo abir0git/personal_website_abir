@@ -1,12 +1,20 @@
 import {BrowserRouter, Routes, Route, Link, useNavigate, HashRouter } from "react-router-dom";
 import { useState } from "react";
+import React, { useEffect } from 'react';
 import "./style.css"
 import logo from "../imgs/logo.png"
 import NavbarDropdown from "./NavbarDropdown";
 
-const Navbar = () => 
+const Navbar = (props) => 
 {
     const [DD, setDD] = useState(false);
+
+    useEffect(() => {
+        console.log(props.active);
+        var active = document.getElementById(props.active);
+        console.log(active);
+        active.style.color = '#ff7a57';
+      }, []);
 
     function DD_activate()
     {
@@ -34,28 +42,22 @@ const Navbar = () =>
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
-                        {DD && <NavbarDropdown></NavbarDropdown>}
+                        {DD && <NavbarDropdown active={props.active}></NavbarDropdown>}
                     </div>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto align-items-center">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Home</Link>
+                                <Link className="nav-link" id="nav-home" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" id="nav-about" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#service">Service</a>
-                            </li>                   
-                            <li className="nav-item">
-                                <a className="nav-link" href="#portfolio">Portfolio</a>
+                                <Link className="nav-link" id="nav-project" to="/project">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#blog">Blog</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#contact">Contact</a>
+                                <Link className="nav-link" id="nav-contact" to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

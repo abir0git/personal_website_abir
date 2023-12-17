@@ -1,5 +1,5 @@
 import resume from "../pdfs/ABIR_ROY_RESUME.pdf"
-import logo from "../imgs/a.jpg"
+import holder from "../imgs/ImgHolder.png"
 
 function Home_body()
 {
@@ -25,13 +25,13 @@ function Home_body()
                     <div className="socials mt-4">
                         <a href="https://www.facebook.com/profile.php?id=100073420211044" target="_blank" className="fa fa-facebook"></a>
                         <a href="https://www.instagram.com/a_for_aabir/" target="_blank" className="fa fa-instagram"></a>
-                        <a href="https://twitter.com/a_for_aabir" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://twitter.com/a_for_aabir" target="_blank" className="fa fa-twitter"></a>
                         <a href="https://linkedin.com/in/abir-roy-335bb6246" target="_blank" className="fa fa-linkedin"></a>
                     </div>
                 </div>              
-                {/* <div className="img-holder">
-                    <img src={logo} alt=""></img>
-                </div>       */}
+                <div className="img-holder">
+                    <img src={holder} alt=""></img>
+                </div>      
             </div>  
 
         </div>

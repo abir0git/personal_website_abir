@@ -1,15 +1,23 @@
 import {BrowserRouter, Routes, Route, Link, useNavigate, HashRouter } from "react-router-dom";
+import { useState } from "react";
+import React, { useEffect } from 'react';
 
-const NavbarDropdown = () =>
+const NavbarDropdown = (props) =>
 {
+
+    useEffect(() => {
+        console.log(props.active);
+        var active = document.getElementById(props.active);
+        console.log(active);
+        active.style.fontWeight = 'bold';
+      }, []);
+
     return(
         <div className="dropdown-content">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/about">About</Link>
-            <a className="nav-link" href="#service">Service</a>
-            <a className="nav-link" href="#portfolio">Portfolio</a>
-            <a className="nav-link" href="#blog">Blog</a>
-            <a className="nav-link" href="#contact">Contact</a>
+            <Link className="nav-link" id="nav-home" to="/">Home</Link>
+            <Link className="nav-link" id="nav-about" to="/about">About</Link>
+            <Link className="nav-link" id="nav-project" to="/project">Projects</Link>
+            <Link className="nav-link" id="nav-contact" to="/contact">Contact</Link>
         </div>
     );
 } 

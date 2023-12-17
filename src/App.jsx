@@ -2,6 +2,8 @@ import {BrowserRouter, Routes, Route, Link, Switch, HashRouter } from "react-rou
 import React from "react";
 import Home from "./components/Home";
 import About from "./components/About"
+import Project from "./components/Project"
+import Contact from "./components/Contact"
 
 const App = () =>
 {
@@ -17,6 +19,14 @@ const App = () =>
 		<Route className="home"
 			path="/about"
 			element = {     <div><About/></div>      }
+		/>
+		<Route className="home"
+			path="/project"
+			element = {     <div><Project/></div>      }
+		/>
+		<Route className="home"
+			path="/contact"
+			element = {     <div><Contact/></div>      }
 		/>
     </Routes>
 	{/* </HashRouter> */}
