@@ -8942,6 +8942,7 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
+  margin-bottom: 4rem !important;
 }
 
 .mr-4,
@@ -11011,10 +11012,10 @@ pre {
 }
 
 .socials {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  display: flex; */
 }
 
 .socials .social-item {
@@ -11789,4 +11790,21 @@ margin-top: 12px;
   /* margin: -2px -2px -2px -4px; */
   margin-left: -5px;
   margin-top: 1px;
+}
+
+/* Crads */
+
+.black-link{
+  color: black;
+}
+
+.black-link :hover{
+  color: white;
+  /* border-bottom: 1px solid white */
+  text-decoration: underline;
+}
+
+.work{
+  margin-top: 200px;
+  text-align: center;
 }

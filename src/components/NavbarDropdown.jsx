@@ -17,6 +17,8 @@ const NavbarDropdown = (props) =>
             <Link className="nav-link" id="nav-home" to="/">Home</Link>
             <Link className="nav-link" id="nav-about" to="/about">About</Link>
             <Link className="nav-link" id="nav-project" to="/project">Projects</Link>
+            <Link className="nav-link" id="nav-academic" to="/academic">Academic</Link>
+            <Link className="nav-link" id="nav-personal" to="/personal">Personal</Link>
             <Link className="nav-link" id="nav-contact" to="/contact">Contact</Link>
         </div>
     );

@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import About_body from "./About_body";
 
-const Home = () => 
+const About = () => 
 {
     return(
         <div data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -11,4 +11,4 @@ const Home = () =>
     )
 }
 
-export default Home;
+export default About;

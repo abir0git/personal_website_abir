@@ -13,7 +13,8 @@ function About_body()
                         <h6 className="title">Abir Roy</h6>
                         <p className="subtitle">Software Developer</p>
                         <p className="subtitle">Data Analyst</p>
-                        <p className="about">I am a third year undergraduate student in the Department of Computer Science & Engineering, Indian Institute of Technology Kharagpur.
+                        <p className="about">I am a third year undergraduate student in the Department of <a href="http://cse.iitkgp.ac.in/">Computer Science & Engineering</a>, 
+                                            <a href="https://www.iitkgp.ac.in/">Indian Institute of Technology, Kharagpur</a>.
                                             I am highly interested in competitive programming. I am a fullstack developer and 
                                             data analyst. Also I am AI/ML enthusiast.</p>                  
                     </div>

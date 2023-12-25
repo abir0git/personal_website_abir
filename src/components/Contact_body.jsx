@@ -46,7 +46,7 @@ function About_body()
                                 </div>                          
                             </div>
                             <div className="item">
-                                <i class="fa fa-envelope"></i>
+                                <i className="fa fa-envelope"></i>
                                 <div className="mb-0">
                                     <h5>Email Address</h5>
                                     <p><a href="mailto:royabirbabai0@gmail.com">royabirbabai0@gmail.com</a></p>

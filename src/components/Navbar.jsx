@@ -57,6 +57,12 @@ const Navbar = (props) =>
                                 <Link className="nav-link" id="nav-project" to="/project">Projects</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" id="nav-academic" to="/academic">Academic</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" id="nav-personal" to="/personal">Personal</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" id="nav-contact" to="/contact">Contact</Link>
                             </li>
                         </ul>

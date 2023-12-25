@@ -22,12 +22,6 @@ function Home_body()
                         <a className="btn btn-dark rounded" href={resume} target = "_blank">DOWNLOAD CV</a>
                     </div>      
 
-                    <div className="socials mt-4">
-                        <a href="https://www.facebook.com/profile.php?id=100073420211044" target="_blank" className="fa fa-facebook"></a>
-                        <a href="https://www.instagram.com/a_for_aabir/" target="_blank" className="fa fa-instagram"></a>
-                        <a href="https://twitter.com/a_for_aabir" target="_blank" className="fa fa-twitter"></a>
-                        <a href="https://linkedin.com/in/abir-roy-335bb6246" target="_blank" className="fa fa-linkedin"></a>
-                    </div>
                 </div>              
                 <div className="img-holder">
                     <img src={holder} alt=""></img>
